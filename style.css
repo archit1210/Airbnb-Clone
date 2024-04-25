@@ -1,0 +1,157 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+
+.hero {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hr {
+    padding: 10px;
+    font-size: 18px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.places {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgs {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.placeName {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+}
+
+.dist {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+.date {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+.rate {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+}
+
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.op {
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.about {
+    display: flex;
+    justify-content: end;
+}
+
+.ab {
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.show {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#msg {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+}
+
+button {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.end {
+    height: 200px;
+    width: 100%;
+}
